@@ -1,0 +1,103 @@
+@media screen and (max-width: 700px) {
+    .nav-pc {
+        display: none;
+    }
+
+    .nav-mobile {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 701px) {
+    .nav-pc {
+        display: block;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .nav-mobile {
+        display: none;
+    }
+}
+.navbar {
+    /* background-color: rgb(171, 171, 171) !important; */
+    background-color: rgb(210, 67, 51) !important;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+
+a {
+    font-family: 'livvic';
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: none;
+}
+
+nav {
+    height: 80px;
+    display: flex;
+    background-color: rgb(153, 186, 221);
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+footer {
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link {
+    font-size: medium;
+    font-family: 'Livvic';
+    font-weight: 200;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color: grey;
+}
+
+.nav-active {
+    visibility: visible;
+    width: 100%;
+    margin-top: 1px;
+    border: 0.5px solid rgb(0, 0, 0);
+}
+
+.nav-unactive {
+    visibility: hidden;
+    margin-top: 1px;
+}
+
+.links {
+    padding: 20px;
+    color: rgb(0, 0, 0);
+
+}
+
+.menu {
+    position: absolute;
+    right: 5%;
+    top: 20px;
+}
+
+p {
+    font-family: "livvic";
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+
+mat-list-item a {
+    font-size: medium;
+    font-family: 'Livvic';
+    font-weight: 200;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+mat-list-item{
+    margin-bottom: 10px;
+}
